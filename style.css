@@ -28,6 +28,8 @@ body {
     border-bottom: 1px solid #333;
 }
 
+
+
 .logo-container {
     display: flex;
     align-items: center;
@@ -60,7 +62,7 @@ body {
 /* .logo-text {
     color: white;
     font-weight: 700;
-    font-size: 1.2rem;
+    
 } */
 
 .logo-title {
