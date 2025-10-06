@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impulso Vital - Crecimiento Personal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <div class="logo-circle">
+                <!-- <span class="logo-text">IV</span> -->
+                 <img  class="imagenLogo"  src="/imagen.jpg" alt="">
+            </div>
+            <h1 class="logo-title">Impulso Vital</h1>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#reto">Reto</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h2 class="hero-title">Deja de mentirte y empieza a vivir</h2>
+                <p class="hero-text">El momento para cambiar tu vida es ahora. Rompe las cadenas del autoengaño y descubre tu verdadero potencial. Cada día es una nueva oportunidad para ser la mejor versión de ti mismo.</p>
+                <button class="cta-button" onclick="scrollToSection('reto')">Comenzar el Cambio</button>
+            </div>
+            <div class="hero-gradient"></div>
+        </section>
+
+        
+        <section id="reto" class="challenge">
+            <div class="container">
+                <h2 class="challenge-title">🔥 Primer Reto: 30 Días Para Dejar de Mentirte</h2>
+                <div class="challenge-content">
+                    <div class="challenge-text">
+                        <p>Este reto está diseñado para sacarte de tu zona de confort mediante acciones pequeñas pero constantes que generarán grandes cambios en tu vida.</p>
+                        <ul class="challenge-list">
+                            <li>✅ 5 minutos de reflexión diaria</li>
+                            <li>✅ Una acción incómoda cada día</li>
+                            <li>✅ Registro de progresos</li>
+                            <li>✅ Compromiso con la verdad</li>
+                        </ul>
+                        <p>Descarga la guía completa con las actividades diarias para comenzar tu transformación.</p>
+                        <button id="downloadBtn" class="download-button">Descargar Guía del Reto</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2 class="contact-title">¿Listo para el Cambio?</h2>
+                <p class="contact-text">Si estás comprometido con tu crecimiento personal y necesitas orientación, no dudes en contactarnos. Juntos podemos crear el plan perfecto para tu transformación.</p>
+                <a href="mailto:hola@impulsovital.com?subject=Consulta%20Impulso%20Vital&body=Hola,%20me%20interesa%20saber%20más%20sobre..." class="contact-button">
+                    Enviar correo
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Impulso Vital | Crece, Despierta, Avanza</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
