@@ -22,7 +22,7 @@ function downloadPDF() {
     fetch(pdfPath, { method: 'HEAD' })
     .then(response => {
         if (response.ok) {
-            // El archivo existe, proceder con la descarga
+          
             const link = document.createElement('a');
             link.href = pdfPath;
             link.download = 'Guia_Reto_30_Dias_Impulso_Vital.pdf';
